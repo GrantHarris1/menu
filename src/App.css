@@ -1,11 +1,16 @@
 .main {
   text-align: center;
-  background-color:lightcoral;
+   background-color:lightcoral;
     position:absolute; 
 height:100%; 
 width:100%;
     height: 100%;
-  color:lightgray;
+  color:lightgray; 
+   /* background-image: url(./img/monks.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;  */
+  font-family: 'PT Sans Narrow', sans-serif; 
 }
 #back{
     background-color: black;

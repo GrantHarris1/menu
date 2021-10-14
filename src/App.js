@@ -10,15 +10,22 @@ function App() {
 
         <div className='back' id="back">
 
-
+            
             <div className="main">
                 <header className="">
                     <h1>Monk's Café</h1>
                     <h2>Menu</h2>
                     <h5 className= 'border'>** Big Salad Currently Unavailable**</h5>
                 </header>
-                {hours >= 17 ?
+                {hours >= 13 ?
                     <div className="dinnerItems">
+                        <h3>Drinks:</h3>
+                        <ul>
+                            <li>Coffee - $2</li>
+                            <li>Tea - $2</li>
+                            <li>Milk - $2</li>
+                        </ul>
+                        <hr />
                         <Dinner />
                     </div> :
 
