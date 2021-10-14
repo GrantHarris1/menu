@@ -25,6 +25,8 @@ class Dinner extends React.Component {
 
     render() {
         console.log(this.state.menuItems)
+       var min = 20
+       var max =30
 
         return (
             <div>
@@ -33,7 +35,7 @@ class Dinner extends React.Component {
                     return(
                         <div key = {index}>
                             <p>
-                                {item.name}
+                                {item.name} - ${Math.floor(min + (Math.random() * (max - min)))}
                             </p>
                         </div>
                     )

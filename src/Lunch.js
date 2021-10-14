@@ -5,6 +5,7 @@ class Lunch extends React.Component {
         super(props);
         this.state = {
             menuItems: []
+
         };
     }
 
@@ -25,15 +26,17 @@ class Lunch extends React.Component {
 
     render() {
         console.log(this.state.menuItems)
+        var min = 10;
+        var max = 20;
 
         return (
             <div>
                 <h3>For Lunch:</h3>
-                {this.state.menuItems.map((item, index)=>{
-                    return(
-                        <div key = {index}>
+                {this.state.menuItems.map((item, index) => {
+                    return (
+                        <div key={index}>
                             <p>
-                                {item.name}
+                                {item.name} - ${Math.floor(min + (Math.random() * (max - min)))}
                             </p>
                         </div>
                     )
