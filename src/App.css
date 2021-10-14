@@ -1,5 +1,7 @@
-.App {
+.main {
   text-align: center;
+  background-color: lightcoral;
+  color:lightgray;
 }
 
 .App-logo {
