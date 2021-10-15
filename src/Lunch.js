@@ -28,6 +28,7 @@ class Lunch extends React.Component {
         console.log(this.state.menuItems)
         var min = 10;
         var max = 20;
+        
 
         return (
             <div>
@@ -35,9 +36,9 @@ class Lunch extends React.Component {
                 {this.state.menuItems.map((item, index) => {
                     return (
                         <div key={index}>
-                            <p>
+                            <h4>
                                 {item.name} - ${Math.floor(min + (Math.random() * (max - min)))}
-                            </p>
+                            </h4>
                         </div>
                     )
                 })}

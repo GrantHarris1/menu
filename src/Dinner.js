@@ -34,9 +34,9 @@ class Dinner extends React.Component {
                 {this.state.menuItems.map((item, index)=>{
                     return(
                         <div key = {index}>
-                            <p>
+                            <h4>
                                 {item.name} - ${Math.floor(min + (Math.random() * (max - min)))}
-                            </p>
+                            </h4>
                         </div>
                     )
                 })}
