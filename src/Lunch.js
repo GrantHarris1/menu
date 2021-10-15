@@ -38,7 +38,15 @@ class Lunch extends React.Component {
                         <div key={index}>
                             <h4>
                                 {item.name} - ${Math.floor(min + (Math.random() * (max - min)))}
+
                             </h4>
+                            <p>{item.description}</p>
+                            
+                                
+                                           
+                                    
+                                
+                            
                         </div>
                     )
                 })}
