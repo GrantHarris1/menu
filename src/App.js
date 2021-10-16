@@ -4,6 +4,9 @@ import './App.css';
 import Lunch from './Lunch';
 import Dinner from './Dinner';
 import Clock from './Clock';
+import Springs from './Springs';
+
+
 function App() {
     let hours = new Date().getHours()
     console.log(hours)
@@ -26,18 +29,25 @@ function App() {
 
 
                     <Clock />
+                    <Springs /> 
+                    <br />
+                    <Springs /> 
+                    <br />
+                    <Springs /> 
+
 
 
 
                 </header>
 
-                {hours >= 14 ?
+                {hours >= 9 ?
                     <div className="dinnerItems card border shadow-lg p-3 mb-5 bg-body rounded" id='card'>
 
                         <a href='https://order.online/store/TomsRestaurant-177261/en-US/?hideModal=true&pickup=true&utm_source=dd-partner-link'>
                             Click Here To Order Online!
                             </a>
                         <h1>Menu:</h1>
+
                         <h3>Drinks:</h3>
                         <h4>
                             <br />Coffee - $2
