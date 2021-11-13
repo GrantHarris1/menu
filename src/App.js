@@ -29,11 +29,11 @@ function App() {
 
 
                     <Clock />
-                    <Springs /> 
+                    
                     <br />
-                    <Springs /> 
+                     
                     <br />
-                    <Springs /> 
+                    
 
 
 

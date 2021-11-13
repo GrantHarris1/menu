@@ -1,6 +1,7 @@
 import { useSpring, animated } from 'react-spring'
 import React from 'react'
 
+
 function LoopTrue() {
   const styles = useSpring({
     loop: true,
@@ -13,7 +14,8 @@ function LoopTrue() {
       style={{
         width: 80,
         height: 80,
-        backgroundColor: "gray",
+      
+       backgroundColor: "gray",
         borderRadius: 16,
         text:'eat at Monks',
         color: "white",
